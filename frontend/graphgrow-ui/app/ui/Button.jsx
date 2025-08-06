@@ -1,8 +1,8 @@
-
+'use client'
 
 function Button({ styles, text, handler }) {
   return (
-    <button className={styles} onClick={handler}>{text}</button>
+    <button className={`${styles} cursor-pointer`} onClick={handler}>{text}</button>
   )
 }
 

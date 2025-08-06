@@ -1,3 +1,4 @@
+'use client'
 import Button from "@/app/ui/Button";
 
 function NavBar() {

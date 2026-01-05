@@ -6,7 +6,7 @@ import { useState, useRef, useEffect } from "react";
 import MiniSparkChart from "@/app/ui/MiniSparkChart";
 import Image from "next/image";
 
-function page() {
+function Page() {
   const [activeButton, setActiveButton] = useState("All");
 
   let filterButtonId = 0;
@@ -217,4 +217,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;
